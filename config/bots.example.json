@@ -1,0 +1,37 @@
+{
+  "jobs": [
+    {
+      "id": "content-generator",
+      "name": "Content AI",
+      "schedule": "0 6 * * *",
+      "prompt_template": "Generate marketing content for today. Focus on privacy-first technology.",
+      "delivery_channel": "telegram",
+      "delivery_target": "",
+      "enabled": true,
+      "max_tokens": 2048,
+      "temperature": 0.8
+    },
+    {
+      "id": "market-intel",
+      "name": "Market Intelligence",
+      "schedule": "0 7 * * *",
+      "prompt_template": "Provide a market intelligence briefing covering AI tools and privacy technology trends.",
+      "delivery_channel": "telegram",
+      "delivery_target": "",
+      "enabled": true,
+      "max_tokens": 2048,
+      "temperature": 0.5
+    },
+    {
+      "id": "crypto-monitor",
+      "name": "Crypto Analyst",
+      "schedule": "*/30 * * * *",
+      "prompt_template": "Analyze current crypto market conditions. Focus on BTC, ETH, SOL. Include price, 24h change, volume.",
+      "delivery_channel": "telegram",
+      "delivery_target": "",
+      "enabled": false,
+      "max_tokens": 1024,
+      "temperature": 0.3
+    }
+  ]
+}

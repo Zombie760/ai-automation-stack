@@ -1,0 +1,16 @@
+# AI Automation Stack — Python dependencies
+# For educational purposes only.
+
+# HTTP (stdlib urllib is used — no external HTTP deps required)
+
+# Optional: enhanced HTTP client
+requests>=2.28.0
+
+# Optional: environment management
+python-dotenv>=1.0.0
+
+# Optional: Telegram bot (for interactive mode)
+python-telegram-bot>=21.0
+
+# Testing
+pytest>=7.0.0
